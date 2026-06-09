@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    // Ambiente Node.js com ESM
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "target": "ESNext",
+    "lib": ["ESNext"],
+    "types": ["node"],
+
+    // Diretórios
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    // Outputs
+    "sourceMap": true,
+    "declaration": true,
+
+    // Checagem de tipos
+    "strict": true,
+    "skipLibCheck": true,
+    "verbatimModuleSyntax": true,
+    "isolatedModules": true,
+    "moduleDetection": "force"
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}

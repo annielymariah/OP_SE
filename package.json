@@ -1,0 +1,32 @@
+{
+  "name": "projeto_de_ia_sistema_especialista",
+  "version": "1.0.0",
+  "description": "Sistema Especialista - Recomendacao de Trilha para Ordem Paranormal",
+  "main": "src/main.ts",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/main.ts",
+    "dev": "tsx watch src/main.ts",
+    "test": "vitest run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IagoMoreira26/projeto_de_IA_sistema_especialista.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IagoMoreira26/projeto_de_IA_sistema_especialista/issues"
+  },
+  "homepage": "https://github.com/IagoMoreira26/projeto_de_IA_sistema_especialista#readme",
+  "dependencies": {
+    "@inquirer/prompts": "^8.5.2",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.2",
+    "vitest": "^4.1.8"
+  }
+}
